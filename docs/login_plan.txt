@@ -1,0 +1,4 @@
+- single password for all accessors
+  - add salt to password, hash it, store it in a pre-generated sqlite file
+  - when user enters pw, add salt and hash it.
+  - read from sqlite db (via sql.js). compare user value with pre-generated value.

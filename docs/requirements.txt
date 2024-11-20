@@ -1,0 +1,16 @@
+1. Show Information
+   - Dates & Times
+   - Venues
+   - Hotel Block
+   - Things to do in Seattle/surrounding area
+2. RSVP
+   - Look up name
+   - pre-filled guest count
+   - customize asking for +1
+3. Registry
+   - Page with links to charities
+   - Links to registry (maybe Zola integration??)
+
+---- Lower Pri ----
+1. Our story
+2. Pics
