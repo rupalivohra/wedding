@@ -1,15 +1,15 @@
 @font-face {
     font-family: RoyalWedding;
-    src: url("fonts/RoyalWedding-Regular.otf") format("opentype"),
-         url('fonts/RoyalWedding-regular.woff2') format('woff2'),
-         url('fonts/RoyalWedding-regular.woff') format('woff');
+    src: url("../fonts/RoyalWedding-Regular.otf") format("opentype"),
+         url("../fonts/RoyalWedding-regular.woff2") format("woff2"),
+         url("../fonts/RoyalWedding-regular.woff") format("woff");
 }
 
 @font-face {
     font-family: Quicksand;
-    src: url("fonts/Quicksand_Book.otf") format("opentype"),
-         url('fonts/quicksand_book.woff2') format('woff2'),
-         url('fonts/quicksand_book.woff') format('woff');
+    src: url("../fonts/Quicksand_Book.otf") format("opentype"),
+         url("../fonts/quicksand_book.woff2") format("woff2"),
+         url("../fonts/quicksand_book.woff") format("woff");
 }
 
 * {
