@@ -19,6 +19,7 @@ Gemfile.lock
 
 # Secrets
 secrets/*
+secret_index.html
 
 # JavaScript
 node_modules/*
