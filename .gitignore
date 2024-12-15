@@ -19,6 +19,10 @@ Gemfile.lock
 
 # Secrets
 secrets/*
+secret_index.html
 
 # JavaScript
 node_modules/*
+
+# Mac
+.DS_Store
