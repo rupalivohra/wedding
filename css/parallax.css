@@ -1,13 +1,13 @@
 .parallax {
-    /* The image used */
-    background-image: url("../photos/stalker_shot.jpeg");
+    /* Be sure to set the background-image in the html source code. */
+    /* Example: style="background-image: url('photos/stalker_shot.jpeg');" */
 
     /* Full height */
     height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: 66.5%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
