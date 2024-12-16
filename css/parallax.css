@@ -1,3 +1,5 @@
+/* Web - for the most part */
+@media screen and (min-width:1000px) {
 .parallax {
     /* Be sure to set the background-image in the html source code. */
     /* Example: style="background-image: url('photos/stalker_shot.jpeg');" */
@@ -10,4 +12,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+}
+
+/* Mobile - for the most part */
+@media screen and (max-width:980px) {
+    /* On mobile, we simply insert the image (parallax doesn't work on iOS) */
+    .parallax {
+        /* Be sure to set the background-image in the html source code. */
+        /* Example: style="background-image: url('photos/stalker_shot.jpeg');" */
+
+        /* Full height */
+        height: 100%;
+    }
 }
