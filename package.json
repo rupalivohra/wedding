@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "compile": "tsc scripts/navbar.ts"
+  },
   "devDependencies": {
     "pagecrypt": "^6.1.1"
   }

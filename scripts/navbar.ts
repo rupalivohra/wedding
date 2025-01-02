@@ -1,14 +1,25 @@
 document.addEventListener('DOMContentLoaded',
     function () {
-        const navItems = document
-            .querySelectorAll('.nav-item');
+        // Get the hamburger button, navbar links, and all navbar items
+        const hamburgerButton = document.getElementById('hamburger-btn');
+        const navbarLinks = document.getElementById('navbar-links');
+        const navItems = document.querySelectorAll('.topnav .nav-item a'); // Select all navbar links
 
-        navItems.forEach(item => {
-            item.addEventListener('click',
-                function () {
-                    navItems.forEach(navItem => navItem
-                        .classList.remove('active'));
-                    this.classList.add('active');
-                });
+        // Check if both elements exist before adding event listeners
+        if (hamburgerButton && navbarLinks) {
+            // Toggle menu visibility when hamburger button is clicked
+            hamburgerButton.addEventListener('click', function () {
+                navbarLinks.classList.toggle('active');
+            });
+        }
+
+        // Add event listeners to each link inside the navbar
+        navItems.forEach((item) => {
+            item.addEventListener('click', function () {
+                // Close the menu when a link is clicked
+                if (navbarLinks) {
+                    navbarLinks.classList.remove('active');
+                }
+            });
         });
     });
