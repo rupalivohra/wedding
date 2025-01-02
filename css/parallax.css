@@ -1,5 +1,5 @@
 /* Web - for the most part */
-@media screen and (min-width:1000px) {
+@media screen and (min-width:800px) {
 .parallax {
     /* Be sure to set the background-image in the html source code. */
     /* Example: style="background-image: url('photos/stalker_shot.jpeg');" */
@@ -16,7 +16,7 @@
 }
 
 /* Mobile - for the most part */
-@media screen and (max-width:980px) {
+@media screen and (max-width:768px) {
     /* On mobile, we simply insert the image (parallax doesn't work on iOS) */
     .parallax {
         /* Be sure to set the background-image in the html source code. */
