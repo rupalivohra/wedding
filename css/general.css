@@ -29,17 +29,23 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1 {
     font-family: Arial;
+    color: #170c0c;
 }
 
 .hr-small {
     width:20%;
     text-align:center;
+}
+
+.hr-medium {
+    width: 50%;
+    text-align: center;
 }
 
 hr {
@@ -50,4 +56,27 @@ hr {
 .scrollableContent {
     margin-top: 40px; /* should match topnav height */
     height: 100%;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.transit-option-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
