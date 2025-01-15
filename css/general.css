@@ -38,6 +38,12 @@ h1 {
     color: #170c0c;
 }
 
+p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .hr-small {
     width:20%;
     text-align:center;
