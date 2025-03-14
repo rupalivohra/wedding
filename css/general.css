@@ -60,8 +60,7 @@ hr {
 }
 
 .scrollableContent {
-    padding-top: 40px;
-        /* Same height as navbar */
+    margin-top: 40px; /* should match topnav height */
     height: 100%;
 }
 

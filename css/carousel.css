@@ -6,7 +6,6 @@
 .carousel-container {
     max-width: 1000px;
     width: 100%;
-    /* position: relative; */
     margin: auto;
 }
 
@@ -29,7 +28,6 @@
 .prev,
 .next {
     cursor: pointer;
-    /* position: absolute; */
     top: 50%;
     width: auto;
     margin-top: -22px;
