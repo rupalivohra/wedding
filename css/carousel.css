@@ -6,7 +6,7 @@
 .carousel-container {
     max-width: 1000px;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     margin: auto;
 }
 
@@ -18,13 +18,18 @@
 .events {
     display: none;
     text-align: center;
+    scroll-margin-top:40px;
+}
+
+#welcome_event {
+    display: block;
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     width: auto;
     margin-top: -22px;

@@ -28,8 +28,3 @@ function showEvents(n) {
         dots[eventIndex - 1].className += " active";
     }
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-    let eventIndex = 1;
-    showEvents(eventIndex);
-});
