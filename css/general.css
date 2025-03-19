@@ -109,7 +109,7 @@ hr {
     border-radius: 6px;
     margin-bottom: 15px;
     color: white;
-    background: linear-gradient(135deg, #DB8442, #F5A25D);
+    background: linear-gradient(135deg, #c76b3e, #e6a05c);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
@@ -117,14 +117,14 @@ hr {
 }
 
 #rsvp_button:hover {
-    background: linear-gradient(135deg, #FFB36B, #FF9E55);
+    background: linear-gradient(135deg, #e88e4f, #f5b985);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
 
 #rsvp_button:focus {
     outline: none;
-    box-shadow: 0px 0px 6px rgba(255, 179, 107, 0.6);
+    box-shadow: 0px 0px 6px rgba(248, 182, 133, 0.6);
 }
 
 @media screen and (max-width: 768px) {
