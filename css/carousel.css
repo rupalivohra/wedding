@@ -85,3 +85,19 @@
         opacity: 1
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    .prev,
+    .next {
+        /* Less padding so arrows are closer */
+        padding: 10px;
+        /* Slightly smaller for mobile */
+        font-size: 16px;
+    }
+
+    .flex-container {
+        /* Less spacing between elements */
+        gap: 5px;
+    }
+}
