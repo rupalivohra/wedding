@@ -48,6 +48,10 @@ p {
     margin-right: 15%;
 }
 
+#countdown {
+    font-size: 30px;
+}
+
 .hr-small {
     width:20%;
     text-align:center;
@@ -89,4 +93,18 @@ hr {
     flex-direction: column;
     width: 100%;
     align-items: center;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(219, 132, 66, 1);
+    border-color: rgb(171, 149, 127);
+}
+
+button:focus {
+    background-color: rgba(219, 132, 66, 0.9);
 }
