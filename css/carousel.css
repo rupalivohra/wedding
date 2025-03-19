@@ -17,7 +17,8 @@
 .events {
     display: none;
     text-align: center;
-    scroll-margin-top:40px;
+    scroll-margin-top: 40px;
+    touch-action: pan-y; /* Allows vertical scrolling while enabling horizontal swipes */
 }
 
 #welcome_event {
