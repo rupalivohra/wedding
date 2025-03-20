@@ -54,6 +54,11 @@ li {
     line-height: 1.5;
 }
 
+ul {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 #countdown {
     font-size: 30px;
 }
@@ -136,5 +141,10 @@ hr {
     p {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    
+    ul {
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
