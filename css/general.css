@@ -57,6 +57,11 @@ p {
     margin-right: 15%;
 }
 
+.table-text {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 li {
     text-align: left;
     line-height: 1.5;
@@ -95,6 +100,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
 }
@@ -103,13 +109,31 @@ hr {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 65%;
     justify-content: center;
 }
 
 .transit-option-header {
     display: flex;
     flex-direction: column;
+    width: auto;
+    min-width: 300px;
+    align-items: center;
+}
+
+.icon {
+    min-height: 160px; /* Ensures enough space for icon */
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-row {
+    display: flex;
+    height: 250px;
     width: 100%;
     align-items: center;
 }
@@ -159,5 +183,30 @@ hr {
     ul {
         margin-left: 2%;
         margin-right: 2%;
+    }
+    .table-row {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center;
+        text-align: center;
+    }
+    
+    .table-cell {
+        width: 90%; /* Give it more room on smaller screens */
+    }
+
+    .transit-option-header {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .icon-row {
+        flex-direction: row; /* Keep icons in a row */
+        justify-content: center;
+        height: auto; /* Remove the fixed height */
+    }
+
+    .icon {
+        min-height: 100px; /* Reduce icon size for mobile */
+        max-width: 120px;
     }
 }
