@@ -1,65 +1,65 @@
 function clickOnRsvpButton() {
-    gtag('event', 'rsvp_view_button', {});
+    gtag('event', 'Click on RSVP button', {});
 }
 
 function clickOnRsvpLink() {
-    gtag('event', 'rsvp_view_link', {});
+    gtag('event', 'Click on RSVP link', {});
 }
 
 function clickOnNavbarHamburger() {
-    gtag('event', 'mobile_navbar_view', {});
+    gtag('event', 'Click on Hamburger menu (Mobile Only)', {});
 }
 
 function clickOnNavWelcome() {
-    gtag('event', 'nav_welcome', {});
+    gtag('event', 'Click on Welcome from Navbar', {});
 }
 
 function clickOnNavEvents() {
-    gtag('event', 'nav_events', {});
+    gtag('event', 'Click on Events from Navbar', {});
 }
 
 function clickOnNavRSVP() {
-    gtag('event', 'nav_rsvp', {});
+    gtag('event', 'Click on RSVP section from Navbar', {});
 }
 
 function clickOnNavOurStory() {
-    gtag('event', 'nav_our_story', {});
+    gtag('event', 'Click on Our Story from Navbar', {});
 }
 
 function clickOnNavTravel() {
-    gtag('event', 'nav_travel', {});
+    gtag('event', 'Click on Travel from Navbar', {});
 }
 
 function clickOnNavAccommodation() {
-    gtag('event', 'nav_accommodation', {});
+    gtag('event', 'Click on Accommodation from Navbar', {});
 }
 
 function clickOnNavRegistry() {
-    gtag('event', 'nav_registry', {});
+    gtag('event', 'Click on Registry from Navbar', {});
 }
 
 function clickOnNavFaq() {
-    gtag('event', 'nav_faq', {});
+    gtag('event', 'Click on FAQ from Navbar', {});
 }
 
 function clickOnPreviousEventArrow() {
-    gtag('event', 'prev_event_arrow', {});
+    gtag('event', 'Click on "Previous Event" arrow', {});
 }
 
 function clickOnNextEventArrow() {
-    gtag('event', 'next_event_arrow', {});
+    gtag('event', 'Click on "Next Event" arrow', {});
 }
 
 function clickOnWelcomeEventDot() {
-    gtag('event', 'welcome_event_dot', {});
+    gtag('event', 'Click on Welcome Party event dot', {});
 }
 
 function clickOnWeddingEventDot() {
-    gtag('event', 'wedding_event_dot', {});
+    gtag('event', 'Click on Wedding event dot', {});
 }
 
 function clickOnBrunchEventDot() {
-    gtag('event', 'brunch_event_dot', {});
+    gtag('event', 'Click on Brunch event dot', {});
 }
 
 function clickOnMariottHotelBlockLink() {
