@@ -57,6 +57,14 @@ p {
     margin-right: 15%;
 }
 
+.subtitle {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-style: oblique;
+    font-size: 15px;
+}
+
 .table-text {
     margin-left: 5%;
     margin-right: 5%;
