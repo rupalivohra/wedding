@@ -42,8 +42,9 @@ function handleEventSelection(eventIndex) {
     currentEvent(eventIndex); // go to correct carousel slide
     document.getElementById('event-submenu').style.display = 'none';
 
-    // Optional: scroll to the carousel container
-    document.getElementById('events').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('events').scrollIntoView({ behavior: 'instant' });
+    // Update the URL hash to #events
+    location.hash = '#events';
 
     // Close navbar if on mobile
     document.getElementById('navbar-links').classList.remove('active');
