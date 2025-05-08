@@ -12,17 +12,19 @@ ul.nav {
 
 .nav-item a {
     display: block;
-    color: rgb(71,94,127);
+    color: white;
     text-align: center;
-    padding: 10px 16px;
+    padding: 12px 20px; /* More padding for a slightly larger hitbox */
     text-decoration: none;
     height: 40px;                /* match navbar height */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 12px;
 }
 
 .topnav {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(209, 231, 219);
+    background: linear-gradient(to right, #e49558, #c26f34);
     position: fixed;
     top:0px;
     left: 0;
@@ -30,6 +32,8 @@ ul.nav {
     margin-left:8px;
     margin-right:8px;
     height:40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
 }
 
 /* Style the hamburger menu */
@@ -48,13 +52,13 @@ ul.nav {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: rgb(39,70,108);
+    background-color: #b85e24; /* darker orange */
     color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #c26f34;
     color: white;
 }
 
@@ -78,8 +82,9 @@ ul.nav {
         top: 50px;
         /* Just below the navbar */
         left: 0;
-        background-color: rgb(209, 231, 219);
+        background-color: #d47a3d;
         z-index: 0;
+        border-radius: 12px;
     }
 
     .nav-item {
@@ -103,23 +108,23 @@ ul.nav {
     position: absolute;
     top: 100%; /* directly below the nav item */
     left: 0; /* aligned left with the word "Events" */
-    background-color: rgb(255, 255, 255);
+    background-color: #e49558;
     border: 1px solid rgba(71, 94, 127, 0.2);
     box-shadow: 0 8px 16px rgba(39, 70, 108, 0.2);
     z-index: 1000;
     display: none;
     flex-direction: column;
-    min-width: 220px;
+    min-width: 200px;
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .event-option {
-    padding: 12px 18px;
+    padding: 10px 18px;
     cursor: pointer;
     border-bottom: 1px solid rgba(71, 94, 127, 0.2); /* soft divider */
-    color: rgb(39, 70, 108); /* match navbar text */
+    color: white; /* match navbar text */
     background-color: transparent;
     transition: background-color 0.2s ease, color 0.2s ease;
     font-size: 1rem;
@@ -127,7 +132,7 @@ ul.nav {
 }
 
 .event-option:hover {
-    background-color: rgb(174, 200, 187); /* navbar tint on hover */
+    background-color: #e49558; /* navbar tint on hover */
     color: rgb(20, 40, 70); /* slightly darker hover color for contrast */
 }
 
