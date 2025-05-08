@@ -21,11 +21,11 @@ function showEvents(n) {
         events[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" dot-active", "");
     }
     events[eventIndex - 1].style.display = "block";
     if (dots.length > 0) {
-        dots[eventIndex - 1].className += " active";
+        dots[eventIndex - 1].className += " dot-active";
     }
 }
 
