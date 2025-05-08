@@ -91,6 +91,7 @@ ul.nav {
         text-align: left;
         /* Align text to the left for mobile */
         width: 100%;
+        border-bottom: 1px solid rgba(71, 94, 127, 0.2);
     }
 
     /* Show the hamburger icon on mobile */
