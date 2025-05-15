@@ -1,4 +1,4 @@
-let eventIndex = 1;
+let eventIndex = 2;
 showEvents(eventIndex);
 
 // Next/previous controls
