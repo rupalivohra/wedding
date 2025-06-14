@@ -69,3 +69,31 @@ function clickOnMariottHotelBlockLink() {
 function clickOnAlexisHotelBlockLink() {
     gtag('event', 'alexis_hotel_block', {});
 }
+
+function clickOnDonatePIHButton() {
+    gtag('event', 'donate_pih', {});
+}
+
+function clickOnDonateDWBButton() {
+    gtag('event', 'donate_dwb', {});
+}
+
+function clickOnDonatePPButton() {
+    gtag('event', 'donate_pp', {});
+}
+
+function clickOnCharityNavigatorPIHButton() {
+    gtag('event', 'charity_navigator_pih', {});
+}
+
+function clickOnCharityNavigatorDWBButton() {
+    gtag('event', 'charity_navigator_dwb', {});
+}
+
+function clickOnCharityNavigatorPPButton() {
+    gtag('event', 'charity_navigator_pp', {});
+}
+
+function clickOnRegistryButton() {
+    gtag('event', 'registry', {});
+}
