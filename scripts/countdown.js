@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (remainingDays === 0) {
             countdownElement.innerHTML = `${weeks} week${weeks > 1 ? 's' : ''} to go!`;
         } else {
-            countdownElement.zinnerHTML = `${weeks} week${weeks > 1 ? 's' : ''}, ${remainingDays} day${remainingDays !== 1 ? 's' : ''} to go!`;
+            countdownElement.innerHTML = `${weeks} week${weeks > 1 ? 's' : ''}, ${remainingDays} day${remainingDays !== 1 ? 's' : ''} to go!`;
         }
     }
     else if (days > 1) {
