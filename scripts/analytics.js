@@ -58,6 +58,10 @@ function clickOnWeddingEventDot() {
     gtag('event', 'Click on Wedding event dot', {});
 }
 
+function clickOnAfterpartyEventDot() {
+    gtag('event', 'Click on Afterparty event dot', {});
+}
+
 function clickOnBrunchEventDot() {
     gtag('event', 'Click on Brunch event dot', {});
 }
